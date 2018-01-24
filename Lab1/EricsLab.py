@@ -1,5 +1,3 @@
-# copied from https://github.com/EricCharnesky/CIS2001-Winter2018/blob/master/Lab1/Lab1.py
-
 choice = ""
 
 def fahrenheit_to_celsius( fahrenheit ):
@@ -48,7 +46,6 @@ while choice != "5":
                    "5 - Quit\n")
 
     print("You chose:", choice)
-
 
     if choice == "1":
         temp_in_fahrenheit = float(input("Enter the temp is Fahrenheit: "))
